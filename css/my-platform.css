@@ -1,0 +1,161 @@
+/*
+*
+*
+* 
+*/
+
+/* queries 
+@media (max-width: 767px) 
+@media (min-width: 768px)
+@media (min-width: 992px)
+@media (min-width: 1200px)
+*/
+
+/* IMPORTANT INITIALISE */
+:root p {
+  margin: 0px;
+}
+
+/* PUBLIC USEFUL CLASSES */
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-b-50 {
+  margin-bottom: 50px;
+}
+
+.m-t-50 {
+  margin-top: 50px;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-none {
+  display: none;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.container {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Start public section header  */
+
+.public-section-header {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+.public-section-header h4,
+.public-section-header h1 {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+
+.public-section-header h1 {
+  top: 27px;
+  left: 30px;
+  margin: 0px;
+}
+
+.public-section-header h4 {
+  font-size: 12px;
+  top: 90px;
+  left: 30px;
+  color: rgb(172, 172, 172);
+  font-weight: bold;
+}
+
+.public-section-header span {
+  top: 138px;
+  left: 90px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.public-section-header hr {
+  width: 116px;
+  top: 147px;
+}
+
+@media (max-width: 1070px) {
+  .public-section-header {
+    width: fit-content;
+    position: initial;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+
+  .public-section-header * {
+    position: initial;
+  }
+
+  .public-section-header h4,
+  .public-section-header h1 {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+
+  .public-section-header hr {
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* End public section header  */
